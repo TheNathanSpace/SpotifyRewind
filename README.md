@@ -10,7 +10,7 @@ You can see my Spotify Rewind highlights in `highlights.json`! If you want to tr
 
 You can request to download your Spotify data from your account's [privacy page](https://www.spotify.com/ca-en/account/privacy/). Once you get the download link, it'll download it as the file `my_spotify_data.zip`. Extract `my_spotify_data.zip`, and you should have a folder named `my_spotify_data/MyData`, then a bunch of `.json` files.
 
-### Download `spotify_rewind.py`
+### Download the Program
 
 1. Open `spotify_rewind.py` by clicking it above.
 
@@ -33,7 +33,7 @@ You can request to download your Spotify data from your account's [privacy page]
         iv. "Save"
 
 ### Setup / Execution
-Place `spotify_rewind.py` in the same directory level as the folder `my_spotify_data`. Then, run `spotify_rewind.py`, and it'll generate two files:
+Place `spotify_rewind.py` in the same directory level as the folder `my_spotify_data`. You'll need at least [Python 3.0](https://www.python.org/downloads/). Then, run `spotify_rewind.py`, and it'll generate two files:
 
  - `data.json` (corresponds to "Full data on")
  
