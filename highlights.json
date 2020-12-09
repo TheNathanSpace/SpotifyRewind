@@ -1,0 +1,74 @@
+{
+    "most_played_adjusted": {
+        "I'm Gonna Be (500 Miles) - The Proclaimers": 30,
+        "One Million Miles An Hour, Fast Asleep - Rx Bandits": 26,
+        "40:1 - Sabaton": 24,
+        "Beyond Me - TobyMac": 24,
+        "Getaway Car - TobyMac": 22,
+        "Backseat Driver - TobyMac": 22,
+        "Human - OneRepublic": 22,
+        "Pompeii - Bastille": 21,
+        "We Are Never Ever Getting Back Together - Taylor Swift": 21,
+        "Blow Me Away - Breaking Benjamin": 20
+    },
+    "most_played_artists_adjusted": {
+        "TobyMac": 626,
+        "Howard Shore": 356,
+        "Taylor Swift": 342,
+        "NF": 319,
+        "OneRepublic": 253,
+        "Jeremy Soule": 127,
+        "John Williams": 117,
+        "Sabaton": 109,
+        "Ludwig Goransson": 108,
+        "Klaus Badelt": 108
+    },
+    "most_skipped": {
+        "I'm Gonna Be (500 Miles) - The Proclaimers": 51,
+        "One Million Miles An Hour, Fast Asleep - Rx Bandits": 33,
+        "The Prophecy - Howard Shore": 16,
+        "Ghost Division - Sabaton": 15,
+        "It's a Beautiful Day - Michael Bublé": 9,
+        "Sweet Caroline - Neil Diamond": 8,
+        "Threw It On The Ground - The Lonely Island": 8,
+        "Secrets - OneRepublic": 8,
+        "Move (Keep Walkin’) - TobyMac": 7,
+        "The Red Baron - Sabaton": 7
+    },
+    "most_never_skipped": {
+        "We Are Never Ever Getting Back Together - Taylor Swift": 21,
+        "You're Welcome - Dwayne Johnson": 17,
+        "All I Have - NF": 16,
+        "...Ready For It? - Taylor Swift": 15,
+        "Oh Lord - NF": 15,
+        "Feel Again - OneRepublic": 15,
+        "I Knew You Were Trouble. - Taylor Swift": 14,
+        "Favorite Song - TobyMac": 14,
+        "Connection - OneRepublic": 14,
+        "The Mandalorian - Ludwig Goransson": 13
+    },
+    "most_played_raw": {
+        "I'm Gonna Be (500 Miles) - The Proclaimers": 81,
+        "One Million Miles An Hour, Fast Asleep - Rx Bandits": 59,
+        "Ghost Division - Sabaton": 28,
+        "40:1 - Sabaton": 27,
+        "Beyond Me - TobyMac": 27,
+        "Pompeii - Bastille": 26,
+        "Human - OneRepublic": 26,
+        "Backseat Driver - TobyMac": 25,
+        "Getaway Car - TobyMac": 24,
+        "The Prophecy - Howard Shore": 24
+    },
+    "most_played_artists_raw": {
+        "TobyMac": 720,
+        "Howard Shore": 411,
+        "Taylor Swift": 410,
+        "NF": 355,
+        "OneRepublic": 317,
+        "Jeremy Soule": 150,
+        "Sabaton": 146,
+        "John Williams": 144,
+        "Klaus Badelt": 117,
+        "Ludwig Goransson": 108
+    }
+}
