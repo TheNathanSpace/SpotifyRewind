@@ -65,7 +65,10 @@ All data is sorted by the number of instances applicable to it.
  
  - Never skipped tracks
  
- - *Always* skipped tracks
+ - Never played (*always* skipped) tracks
+ 
+ - Play-to-skip ratio
+ 
  
 
 #### Highlights (top ten) on:
