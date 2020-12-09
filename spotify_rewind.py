@@ -1,4 +1,4 @@
-import ujson
+import json
 from pathlib import Path
 
 
@@ -30,7 +30,7 @@ most_played_artists_dict_adjusted = {}
 most_played_artists_dict_raw = {}
 
 streaming_history_file_contents = streaming_history_file.read_text(encoding = "utf8")
-streaming_history_json = ujson.loads(streaming_history_file_contents)
+streaming_history_json = json.loads(streaming_history_file_contents)
 
 for track_object in streaming_history_json:
     end_time = track_object["endTime"]
@@ -117,6 +117,6 @@ highlights["most_played_raw"] = most_played_raw_list
 highlights["most_played_artists_raw"] = most_played_artists_raw_list
 
 highlights_file = Path.cwd() / "highlights.json"
-highlights_file.write_text(ujson.dumps(highlights, indent = 4, ensure_ascii = False), encoding = "utf8")
+highlights_file.write_text(json.dumps(highlights, indent = 4, ensure_ascii = False), encoding = "utf8")
 
-output_file.write_text(ujson.dumps(output_dict, indent = 4, ensure_ascii = False), encoding = "utf8")
+output_file.write_text(json.dumps(output_dict, indent = 4, ensure_ascii = False), encoding = "utf8")
