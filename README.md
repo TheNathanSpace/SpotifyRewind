@@ -1,3 +1,7 @@
+# Spotify Rewind
+
+Spotify Wrapped was good, but I felt like I lacked the *real* data. I saw so many places where it fell short, and a lot of them were specific to my habits, so I felt I could make a better summary of the year by analyzing the data myself.
+
 ### Instructions
 
 You can request to download your Spotify data from your account's [privacy page](https://www.spotify.com/ca-en/account/privacy/). Once you get the download link, it'll download it as the file `my_spotify_data.zip`. Extract `my_spotify_data.zip`, and you should have a folder named `my_spotify_data/MyData`, then a bunch of `.json` files.
