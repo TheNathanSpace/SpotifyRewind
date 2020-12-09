@@ -4,11 +4,36 @@ Spotify Wrapped was good, but I felt like I lacked the *real* data. I saw so man
 
 You can see my Spotify Rewind highlights in `highlights.json`! If you want to try it yourself, follow the instructions below.
 
-### Instructions
+## Instructions
+
+### Request Spotify Data
 
 You can request to download your Spotify data from your account's [privacy page](https://www.spotify.com/ca-en/account/privacy/). Once you get the download link, it'll download it as the file `my_spotify_data.zip`. Extract `my_spotify_data.zip`, and you should have a folder named `my_spotify_data/MyData`, then a bunch of `.json` files.
 
-Place `main.py` in the same directory level as the folder `my_spotify_data`. Then, run `main.py`, and it'll generate two files:
+### Download `spotify_rewind.py`
+
+1. Open `spotify_rewind.py` by clicking it above.
+
+2. Click "Raw".
+
+3. Save the page to your computer using the method below (Windows):
+
+    a. Right click  / `Ctrl+S`
+   
+    b. "Save page as"
+    
+    c. Save the file:
+   
+        i. "Save type as"
+   
+        ii. "Text file (\*.txt, \*.text)" (near the bottom)
+   
+        iii. "All files (\*.\*)"
+   
+        iv. "Save"
+
+### Setup / Execution
+Place `spotify_rewind.py` in the same directory level as the folder `my_spotify_data`. Then, run `spotify_rewind.py`, and it'll generate two files:
 
  - `data.json` (corresponds to "Full data on")
  
