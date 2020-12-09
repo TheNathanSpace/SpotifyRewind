@@ -84,3 +84,5 @@ All data is sorted by the number of instances applicable to it.
  - Most played tracks
  
  - Most played artists
+ 
+ - Highest play-to-skip ratio
