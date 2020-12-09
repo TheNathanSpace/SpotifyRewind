@@ -2,6 +2,8 @@
 
 Spotify Wrapped was good, but I felt like I lacked the *real* data. I saw so many places where it fell short, and a lot of them were specific to my habits, so I felt I could make a better summary of the year by analyzing the data myself.
 
+You can see my Spotify Rewind highlights in `highlights.json`! If you want to try it yourself, follow the instructions below.
+
 ### Instructions
 
 You can request to download your Spotify data from your account's [privacy page](https://www.spotify.com/ca-en/account/privacy/). Once you get the download link, it'll download it as the file `my_spotify_data.zip`. Extract `my_spotify_data.zip`, and you should have a folder named `my_spotify_data/MyData`, then a bunch of `.json` files.
@@ -54,5 +56,3 @@ All data is sorted by the number of instances applicable to it.
  - Most played tracks
  
  - Most played artists
- 
-You can see my highlights in `highlights.json` in this repository!
