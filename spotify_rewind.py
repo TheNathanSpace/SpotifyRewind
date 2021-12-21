@@ -17,7 +17,11 @@ def sort_dict(dictionary, reverse = False):
 
 
 my_data_folder = Path.cwd() / "my_spotify_data" / "MyData"
+file_list = []
 streaming_history_file = my_data_folder / "StreamingHistory0.json"
+file_list.append(streaming_history_file)
+streaming_history_file = my_data_folder / "StreamingHistory1.json"
+file_list.append(streaming_history_file)
 
 output_file = Path.cwd() / "data.json"
 
@@ -29,8 +33,10 @@ most_played_track_dict_raw = {}
 most_played_artists_dict_adjusted = {}
 most_played_artists_dict_raw = {}
 
-streaming_history_file_contents = streaming_history_file.read_text(encoding = "utf8")
-streaming_history_json = json.loads(streaming_history_file_contents)
+streaming_history_json = []
+for file in file_list:
+    streaming_history_file_contents = streaming_history_file.read_text(encoding = "utf8")
+    streaming_history_json += json.loads(streaming_history_file_contents)
 
 for track_object in streaming_history_json:
     end_time = track_object["endTime"]
